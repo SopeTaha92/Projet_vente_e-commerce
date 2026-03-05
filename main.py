@@ -6,10 +6,11 @@ from pathlib import Path
 
 today = datetime.now().strftime('%d-%m-%Y_%H-%M')
 dir_path = Path(__file__).parent
-os.makedirs(dir_path, exist_ok=True)
-file = os.path.join(dir_path, f"exo_1_refait_{today}.xlsx") #git commit -m "L'ajout du code de l'exo"
+dir_path.mkdir(parents=True, exist_ok=True)
+#os.makedirs(dir_path, exist_ok=True)
+#file = os.path.join(dir_path, f"exo_1_refait_{today}.xlsx") 
 
-
+file_excel = dir_path / "Output_excel" / f"Exo-de-donnée-E-commerce_{today}.xlsx"
 
 
 
@@ -111,7 +112,7 @@ onglets = {
     'Données Par Catégories' : df_category
 }
 
-with pd.ExcelWriter(file, engine='xlsxwriter') as writer:
+with pd.ExcelWriter(file_excel, engine='xlsxwriter') as writer:
     #df.to_excel(writer, sheet_name='Données Néttoyées', index=False)
 
     #workbook = writer.book
