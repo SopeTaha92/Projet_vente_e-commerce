@@ -7,7 +7,7 @@ from config import LOG_FILE, BRUTE_DATA_FILE, BRUTE_DATA_CLEAN_FILE, MAX_RETRIES
 from src import logging_file
 from src import extracting_data, cleanning_brute_data, add_features
 from src import analysis_by_categories, analysis_by_city, analysis_by_status
-from src import repporting_excel
+from src import reporting_excel
 
 
 
@@ -29,6 +29,6 @@ onglets = {
     'Données Par Status' : analyse_status
 }
 
-repporting_excel(EXCEL_FILE, onglets, MIN_ORANGE, MAX_ORANGE, GREEN_VALUE)
+reporting_excel(EXCEL_FILE, onglets, MIN_ORANGE, MAX_ORANGE, GREEN_VALUE)
 
 

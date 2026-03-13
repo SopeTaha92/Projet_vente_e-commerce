@@ -6,7 +6,7 @@ from loguru import logger
 from typing import Dict
 
 
-def repporting_excel(file : str, onglets : Dict[str , pd.DataFrame], min_orange, max_orange, green_value):
+def reporting_excel(file : str, onglets : Dict[str , pd.DataFrame], min_orange, max_orange, green_value):
     """La fonction qui se charge de la génération des fichiers Excel"""
     with pd.ExcelWriter(file, engine='xlsxwriter') as writer:
         logger.info("Début de la génération du fichier Excel multi-onglets")
