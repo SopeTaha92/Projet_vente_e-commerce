@@ -1,0 +1,11 @@
+order_id,customer_id,customer_name,customer_email,product_id,product_name,category,quantity,unit_price,discount,order_date,shipping_city,status
+ORD-001,CUST-01,alice martin,ALICE@EMAIL.COM,P-100,Laptop Dell,Electronics,1,899.99€,0%,2024-01-15,Paris,delivered
+ORD-002,CUST-02,BOB DUPONT,bob@email.com,P-200,iPhone 15,Mobile,2,999.99,10%,2024-01-16,lyon,shipped
+ORD-003,CUST-01,alice martin,alice@email.com,P-300,Samsung Tablet,Tablet,1,449.99€,5%,2024-01-17,MARSEILLE,delivered
+ORD-004,CUST-03,CHARLIE LEGRAND,charlie@email.com,P-400,Sony Headphones,Audio,3,199.99€,15%,2024-01-18,LILLE,pending
+ORD-005,CUST-04,diana,diana@email.com,P-500,MacBook Pro,Laptop,1,1299.99,0%,2024-01-19,Paris,delivered
+ORD-006,CUST-05,,invalid,P-600,iPad Air,Tablet,2,599.99€,20%,2024-01-20,TOULOUSE,shipped
+ORD-007,CUST-03,EVE,eve@email.com,P-700,Google Pixel,Mobile,1,699.99,10%,2024-01-21,BORDEAUX,delivered
+ORD-008,CUST-06,frank,frank@email.com,P-800,Microsoft Surface,Laptop,1,899.99€,5%,2024-01-22,NICE,pending
+ORD-009,CUST-07,GRACE,grace@email.com,P-900,Canon Camera,Camera,1,549.99€,0%,2024-01-23,STRASBOURG,shipped
+ORD-010,CUST-08,HELEN,,P-1000,Nikon Lens,Camera,1,399.99€,25%,2024-01-24,,cancelled
