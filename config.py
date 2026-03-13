@@ -26,3 +26,7 @@ EXCEL_FILE = BASE_DIR_EXCEL / f"donnée_vente_E-commerce_{TODAY}.xlsx"
 
 MAX_RETRIES = 3
 DELAY = 1
+
+MIN_ORANGE = 0
+MAX_ORANGE = 100
+GREEN_VALUE = 100

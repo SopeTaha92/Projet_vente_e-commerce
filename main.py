@@ -1,7 +1,7 @@
 
 
 
-from config import LOG_FILE, BRUTE_DATA_FILE, BRUTE_DATA_CLEAN_FILE, MAX_RETRIES, DELAY, EXCEL_FILE
+from config import LOG_FILE, BRUTE_DATA_FILE, BRUTE_DATA_CLEAN_FILE, MAX_RETRIES, DELAY, EXCEL_FILE, MIN_ORANGE, MAX_ORANGE, GREEN_VALUE
 
 
 from src import logging_file
@@ -29,6 +29,6 @@ onglets = {
     'Données Par Status' : analyse_status
 }
 
-repporting_excel(EXCEL_FILE, onglets)
+repporting_excel(EXCEL_FILE, onglets, MIN_ORANGE, MAX_ORANGE, GREEN_VALUE)
 
 
