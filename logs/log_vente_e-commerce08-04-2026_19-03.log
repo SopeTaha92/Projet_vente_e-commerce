@@ -1,0 +1,7 @@
+2026-04-08 19:03:25 | INFO | src.extract:85 | Début de l'extraction des données depuis PostgreSQL
+2026-04-08 19:03:25 | ERROR | src.extract:120 | Erreur lors de l'extraction : 'utf-8' codec can't decode byte 0xe9 in position 84: invalid continuation byte
+2026-04-08 19:03:25 | INFO | src.extract:122 | Tentative 1/3 échouée. Nouvelle tentative dans 1s
+2026-04-08 19:03:26 | ERROR | src.extract:120 | Erreur lors de l'extraction : 'utf-8' codec can't decode byte 0xe9 in position 84: invalid continuation byte
+2026-04-08 19:03:26 | INFO | src.extract:122 | Tentative 2/3 échouée. Nouvelle tentative dans 2s
+2026-04-08 19:03:28 | ERROR | src.extract:120 | Erreur lors de l'extraction : 'utf-8' codec can't decode byte 0xe9 in position 84: invalid continuation byte
+2026-04-08 19:03:28 | CRITICAL | src.extract:126 | Échec total après 3 tentatives

@@ -3,12 +3,11 @@
 
 import sys
 import time
-
 import pandas as pd 
 from loguru import logger
 
 
-def extracting_data(file : str, max_retries : int, delay : int):
+def extracting_data_file_csv(file : str, max_retries : int, delay : int):
     """La fonction qui recupére les données depuis la source ici un fichier csv"""
     logger.info("Début de l'extraction des données brutes")
 
